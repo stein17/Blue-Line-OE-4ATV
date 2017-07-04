@@ -5351,65 +5351,65 @@ self.instance.move(ePoint(0,0))
   </screen>
   <!-- MerlinMusicPlayer End -->
   <!-- Movie Browser Plugin -->
-  <screen name="movieBrowserMetrix" position="center,center" size="1920,1080" flags="wfNoBorder" title="  " backgroundColor="black">
-    <widget source="global.CurrentTime" render="Label" position="1088,28" size="600,40" font="Regular; 30" halign="right" foregroundColor="white" backgroundColor="black" transparent="1">
-      <convert type="ClockToText">Format:%A, %d.%m.%Y   %H:%M</convert>
-    </widget>
-    <eLabel name="vertikalline" position="1237,120" size="2,840" foregroundColor="backgroundBlue" backgroundColor="backgroundBlue" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/menu/bg1920.png" position="0,0" zPosition="-20" size="1920,1080" />
-    <widget source="Title" render="Label" position="10,25" size="1200,50" noWrap="1" valign="center" font="Regular; 36" backgroundColor="black" halign="left" transparent="1" zPosition="1" />
-    <eLabel text="my Details" position="70,130" size="440,57" font="Regular; 38" foregroundColor="lightblue" backgroundColor="background" transparent="1" halign="left" />
-    <eLabel text="my Movie Browser" position="1345,130" size="450,57" font="Regular; 38" foregroundColor="white" backgroundColor="background" transparent="1" halign="center" />
-    <widget name="backdrop" position="28,187" size="1170,770" alphatest="blend" transparent="0" zPosition="-12" />
-    <widget name="menu" position="947,1014" size="0,0" alphatest="blend" transparent="1" zPosition="3" />
-    <widget name="info" position="1107,1014" size="0,0" alphatest="blend" transparent="1" zPosition="3" />
-    <widget name="pvr" position="1034,1008" size="0,0" alphatest="blend" transparent="1" zPosition="3" />
-    <widget name="yellow" position="1680,1016" size="0,0" alphatest="blend" transparent="1" zPosition="3" />
-    <widget name="red" position="1268,1016" size="0,0" alphatest="blend" transparent="1" zPosition="2" />
-    <widget name="green" position="1476,1016" size="0,0" alphatest="blend" transparent="1" zPosition="2" />
-    <widget name="label" position="1280,240" size="580,45" font="Regular;35" foregroundColor="white" valign="center" transparent="1" zPosition="3" />
-    <widget name="label2" position="1280,285" size="580,35" font="Regular; 24" valign="center" transparent="1" zPosition="3" backgroundColor="background" />
-    <widget name="label3" position="1280,900" size="580,35" font="Regular; 23" foregroundColor="grey" valign="center" transparent="1" zPosition="3" backgroundColor="background" />
-    <widget name="list" position="1281,345" size="580,520" itemHeight="80" foregroundColor="white" backgroundColor="black" selectionPixmap="Blue-Line-OE-4ATV/menu/selp.png" transparent="1" zPosition="3" />
-    <widget name="plotname" position="1280,240" size="580,90" font="Regular; 30" valign="center" transparent="1" zPosition="20" backgroundColor="background" foregroundColor="white" Wrap="1" />
-    <widget name="plotfull" position="1280,342" size="580,545" font="Regular; 26" foregroundColor="white" transparent="1" zPosition="20" backgroundColor="background" />
-    <widget name="poster" position="977,700" size="150,225" zPosition="21" transparent="1" alphatest="blend" />
-    <widget name="posterback" position="928,689" size="245,245" zPosition="20" transparent="1" alphatest="blend" />
-    <widget name="name" position="70,240" size="560,90" font="Regular; 30" foregroundColor="white" valign="center" transparent="1" zPosition="3" Wrap="1" backgroundColor="background" />
-    <widget name="seen" position="30,260" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/pic/browser/seen.png" transparent="1" alphatest="blend" zPosition="3" />
-    <widget name="ratings" position="70,345" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/pic/browser/ratings.png" borderWidth="0" orientation="orHorizontal" transparent="1" zPosition="5" />
-    <widget name="ratingsback" position="70,345" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/pic/browser/ratings_back.png" alphatest="blend" zPosition="6" />
-    <widget name="Director" position="70,415" size="160,40" font="Regular; 25" foregroundColor="grey" transparent="1" zPosition="8" backgroundColor="background" />
-    <widget name="director" position="205,415" size="400,40" font="Regular; 25" foregroundColor="white" transparent="1" zPosition="9" backgroundColor="background" />
-    <widget name="Year" position="70,460" size="150,40" font="Regular; 25" foregroundColor="grey" transparent="1" zPosition="14" backgroundColor="background" />
-    <widget name="year" position="205,460" size="150,40" font="Regular; 25" foregroundColor="white" transparent="1" zPosition="15" backgroundColor="background" />
-    <widget name="Country" position="70,505" size="160,40" font="Regular; 25" foregroundColor="grey" transparent="1" zPosition="10" backgroundColor="background" />
-    <widget name="country" position="205,505" size="360,40" font="Regular; 25" foregroundColor="white" transparent="1" zPosition="11" backgroundColor="background" />
-    <widget name="Runtime" position="70,550" size="160,40" font="Regular; 25" foregroundColor="grey" transparent="1" zPosition="16" backgroundColor="background" />
-    <widget name="runtime" position="205,550" size="250,40" font="Regular; 25" foregroundColor="white" transparent="1" zPosition="17" backgroundColor="background" />
-    <widget name="Genres" position="70,595" size="160,40" font="Regular; 25" foregroundColor="grey" transparent="1" zPosition="18" backgroundColor="background" />
-    <widget name="genres" position="70,640" size="540,70" font="Regular; 25" foregroundColor="white" transparent="1" zPosition="19" Wrap="1" backgroundColor="background" />
-    <widget name="Actors" position="70,715" size="160,40" font="Regular; 25" foregroundColor="grey" transparent="1" zPosition="12" backgroundColor="background" />
-    <widget name="actors" position="70,760" size="540,100" font="Regular; 25" foregroundColor="white" transparent="1" zPosition="13" backgroundColor="background" />
-    <widget name="eposter" position="71,335" size="540,405" alphatest="blend" transparent="1" zPosition="21" />
-    <widget name="banner" position="70,285" size="540,99" alphatest="blend" transparent="1" zPosition="21" />
-    <widget name="episodes" position="70,455" size="540,400" scrollbarMode="showOnDemand" transparent="1" zPosition="21" font="Regular; 22" backgroundColor="background" />
-    <widget name="seasons" position="70,455" size="540,400" scrollbarMode="showOnDemand" transparent="1" zPosition="20" font="Regular; 22" backgroundColor="background" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_pvr.png" position="1441,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_menu.png" position="1295,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_text.png" position="1678,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_info.png" position="1367,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-    <eLabel text="Aktualisieren" position="1511,1020" size="160,32" font="Regular;24" foregroundColor="white" backgroundColor="background" halign="left" transparent="1" zPosition="2" />
-    <eLabel text="Editieren" position="1747,1020" size="150,32" font="Regular;24" foregroundColor="white" backgroundColor="background" halign="left" transparent="1" zPosition="2" />
-    <eLabel text="Ausblenden" position="980,1020" size="150,32" font="Regular;24" foregroundColor="white" backgroundColor="background" halign="left" transparent="1" zPosition="2" />
-    <eLabel text="Ansicht" position="67,1020" size="150,32" font="Regular;24" foregroundColor="white" backgroundColor="background" halign="left" transparent="1" zPosition="2" />
-    <eLabel text="YouTube" position="673,1020" size="150,32" font="Regular;24" foregroundColor="white" backgroundColor="background" halign="left" transparent="1" zPosition="2" />
-    <eLabel text="Wikipedia" position="370,1020" size="150,32" font="Regular;24" foregroundColor="white" backgroundColor="background" halign="left" transparent="1" zPosition="2" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
-  </screen>
+<screen name="movieBrowserMetrix" position="center,center" size="1920,1080" flags="wfNoBorder" title="  " backgroundColor="black">
+  <widget source="global.CurrentTime" render="Label" position="1088,28" size="600,40" font="Regular; 30" halign="right" foregroundColor="white" backgroundColor="black" transparent="1">
+    <convert type="ClockToText">Format:%A, %d.%m.%Y   %H:%M</convert>
+  </widget>
+  <eLabel name="vertikalline" position="1257,122" size="2,840" foregroundColor="backgroundBlue" backgroundColor="backgroundBlue" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/menu/bg1920.png" position="0,0" zPosition="-20" size="1920,1080" />
+  <widget source="Title" render="Label" position="1280,179" size="620,50" noWrap="1" valign="center" font="Regular; 34" backgroundColor="black" halign="left" transparent="1" zPosition="1" />
+  <eLabel text="my Details" position="10,25" size="440,57" font="Regular; 38" foregroundColor="lightblue" backgroundColor="background" transparent="1" halign="left" />
+  <eLabel text="my Movie Browser" position="1345,110" size="450,57" font="Regular; 38" foregroundColor="white" backgroundColor="black" transparent="1" halign="center" />
+  <widget name="backdrop" position="30,99" size="1200,785" alphatest="blend" transparent="0" zPosition="-12" />
+  <widget name="menu" position="947,1014" size="0,0" alphatest="blend" transparent="1" zPosition="3" />
+  <widget name="info" position="1107,1014" size="0,0" alphatest="blend" transparent="1" zPosition="3" />
+  <widget name="pvr" position="1034,1008" size="0,0" alphatest="blend" transparent="1" zPosition="3" />
+  <widget name="yellow" position="1680,1016" size="0,0" alphatest="blend" transparent="1" zPosition="3" />
+  <widget name="red" position="1268,1016" size="0,0" alphatest="blend" transparent="1" zPosition="2" />
+  <widget name="green" position="1476,1016" size="0,0" alphatest="blend" transparent="1" zPosition="2" />
+  <widget name="label" position="1280,240" size="580,45" font="Regular;35" foregroundColor="white" valign="center" transparent="1" zPosition="3" />
+  <widget name="label2" position="1280,285" size="580,35" font="Regular; 24" valign="center" transparent="1" zPosition="3" backgroundColor="background" />
+  <widget name="label3" position="1280,900" size="580,35" font="Regular; 23" foregroundColor="grey" valign="center" transparent="1" zPosition="3" backgroundColor="background" />
+  <widget name="list" position="1281,345" size="580,520" itemHeight="80" foregroundColor="white" backgroundColor="black" selectionPixmap="Blue-Line-OE-4ATV/menu/selp.png" transparent="1" zPosition="3" />
+  <widget name="plotname" position="1280,240" size="580,90" font="Regular; 30" valign="center" transparent="1" zPosition="20" backgroundColor="background" foregroundColor="white" Wrap="1" />
+  <widget name="plotfull" position="1280,342" size="580,545" font="Regular; 26" foregroundColor="white" transparent="1" zPosition="20" backgroundColor="background" />
+  <widget name="poster" position="999,680" size="150,225" zPosition="21" transparent="1" alphatest="blend" />
+  <widget name="posterback" position="950,670" size="245,245" zPosition="20" transparent="1" alphatest="blend" />
+  <widget name="name" position="30,608" size="560,40" font="Regular; 30" foregroundColor="black" valign="center" transparent="0" zPosition="3" Wrap="1" backgroundColor="white" />
+  <widget name="seen" position="6,607" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/pic/browser/seen.png" transparent="1" alphatest="blend" zPosition="3" />
+  <widget name="ratings" position="971,934" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/pic/browser/ratings.png" borderWidth="0" orientation="orHorizontal" transparent="1" zPosition="5" />
+  <widget name="ratingsback" position="971,934" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/pic/browser/ratings_back.png" alphatest="blend" zPosition="6" />
+  <widget name="Director" position="30,665" size="160,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="8" backgroundColor="white" />
+  <widget name="director" position="175,665" size="400,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="9" backgroundColor="white" />
+  <widget name="Year" position="30,710" size="150,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="14" backgroundColor="white" />
+  <widget name="year" position="175,710" size="150,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="15" backgroundColor="white" />
+  <widget name="Country" position="30,755" size="160,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="10" backgroundColor="white" />
+  <widget name="country" position="175,755" size="360,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="11" backgroundColor="white" />
+  <widget name="Runtime" position="30,800" size="160,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="16" backgroundColor="white" />
+  <widget name="runtime" position="175,800" size="250,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="17" backgroundColor="white" />
+  <widget name="Genres" position="30,850" size="160,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="18" backgroundColor="white" />
+  <widget name="genres" position="206,850" size="540,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="19" Wrap="1" backgroundColor="white" />
+  <widget name="Actors" position="30,900" size="160,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="12" backgroundColor="white" />
+  <widget name="actors" position="206,900" size="700,65" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="13" backgroundColor="white" />
+  <widget name="eposter" position="27,606" size="840,380" alphatest="blend" transparent="1" zPosition="21" />
+  <widget name="banner" position="968,931" size="217,27" alphatest="blend" transparent="0" foregroundColor="backgroundBlue" backgroundColor="backgroundBlue" zPosition="21" />
+  <widget name="episodes" position="27,606" size="840,380" scrollbarMode="showOnDemand" transparent="1" zPosition="21" font="Regular; 22" backgroundColor="background" />
+  <widget name="seasons" position="27,606" size="840,380" scrollbarMode="showOnDemand" transparent="1" zPosition="20" font="Regular; 22" backgroundColor="background" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_pvr.png" position="1441,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_menu.png" position="1295,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_text.png" position="1678,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_info.png" position="1367,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+  <eLabel text="Aktualisieren" position="1511,1020" size="160,32" font="Regular;24" foregroundColor="white" backgroundColor="background" halign="left" transparent="1" zPosition="2" />
+  <eLabel text="Editieren" position="1747,1020" size="150,32" font="Regular;24" foregroundColor="white" backgroundColor="background" halign="left" transparent="1" zPosition="2" />
+  <eLabel text="Ausblenden" position="980,1020" size="150,32" font="Regular;24" foregroundColor="white" backgroundColor="background" halign="left" transparent="1" zPosition="2" />
+  <eLabel text="Ansicht" position="67,1020" size="150,32" font="Regular;24" foregroundColor="white" backgroundColor="background" halign="left" transparent="1" zPosition="2" />
+  <eLabel text="YouTube" position="673,1020" size="150,32" font="Regular;24" foregroundColor="white" backgroundColor="background" halign="left" transparent="1" zPosition="2" />
+  <eLabel text="Wikipedia" position="370,1020" size="150,32" font="Regular;24" foregroundColor="white" backgroundColor="background" halign="left" transparent="1" zPosition="2" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+</screen>
   <!-- movieBrowserBackdrop -->
   <screen name="movieBrowserBackdrop" position="center,center" size="1920,1080" flags="wfNoBorder" title="  " backgroundColor="black">
     <widget source="global.CurrentTime" render="Label" position="1086,28" size="600,40" font="Regular; 30" halign="right" foregroundColor="white" backgroundColor="black" transparent="1">
