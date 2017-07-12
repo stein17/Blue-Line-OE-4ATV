@@ -3783,24 +3783,27 @@
     <eLabel name="vertikalline" position="929,120" size="2,840" foregroundColor="backgroundBlue" backgroundColor="backgroundBlue" />
   </screen>
   <!-- PluginBrowser 4all FHD -->
-  <screen backgroundColor="transparent" flags="wfNoBorder" name="PluginBrowser" position="0,0" size="1920,1080" title="Plugin browser">
-    <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="white" backgroundColor="black" transparent="1">
-      <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
-    </widget>
-    <eLabel text="Plugin browser" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/menu/bg1280.png" position="0,0" zPosition="-20" size="1280,1080" />
-    <widget name="list" position="30,130" size="875,820" itemHeight="75" font="Regular;32" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_red.png" position="13,1018" size="35,35" alphatest="blend" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_green.png" position="270,1018" size="35,35" alphatest="blend" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_blue.png" position="582,1018" size="35,35" alphatest="blend" />
-    <widget name="key_red" position="58,1000" size="200,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-    <widget name="key_green" position="315,1000" size="260,70" zPosition="1" valign="center" font="Regular; 30" halign="left" backgroundColor="black" transparent="1" />
-    <widget name="key_blue" position="630,1000" size="295,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_menu.png" position="1101,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_exit.png" position="1020,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
-    <ePixmap position="981,699" size="256,256" zPosition="2" pixmap="Blue-Line-OE-4ATV/icons/menu_mainmenu_pluginmanager.png" transparent="1" />
-    <eLabel name="vertikalline" position="929,120" size="2,840" foregroundColor="backgroundBlue" backgroundColor="backgroundBlue" />
-  </screen>
+<screen backgroundColor="transparent" flags="wfNoBorder" name="PluginBrowser" position="0,0" size="1920,1080" title="Plugin browser">
+  <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="white" backgroundColor="black" transparent="1">
+    <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+  </widget>
+  <eLabel text="Plugin browser" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/menu/bg1280.png" position="0,0" zPosition="-20" size="1280,1080" />
+  <widget name="list" position="30,130" size="875,820" itemHeight="75" font="Regular;32" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+  <widget name="key_red" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+  <widget name="key_green" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+  <widget name="key_yellow" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+  <widget name="key_blue" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_menu.png" position="1307,1011" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_exit.png" position="1387,1011" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+  <ePixmap position="981,699" size="256,256" zPosition="2" pixmap="Blue-Line-OE-4ATV/icons/menu_mainmenu_pluginmanager.png" transparent="1" />
+  <eLabel name="vertikalline" position="929,120" size="2,840" foregroundColor="backgroundBlue" backgroundColor="backgroundBlue" />
+<eLabel name="" position="1286,999" size="180,80" />
+</screen>
   <!-- Plugin Manager FHD -->
   <screen name="PluginManager" position="0,0" size="1920,1080" title="Plugin manager" flags="wfNoBorder" backgroundColor="transparent">
     <widget source="global.CurrentTime" render="Label" position="508,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="white" backgroundColor="black" transparent="1">
@@ -6570,4 +6573,48 @@ self.instance.move(ePoint((1920-wsizex), (1280-wsizex)/2, (720-wsizey)/(count &g
   <ePixmap position="939,158" size="256,256" zPosition="10" pixmap="Blue-Line-OE-4ATV/icons/update_menu.png" transparent="1" alphatest="blend" />
 <eLabel text="Menu/Einstellungen/Bedienung und Oberfläche/OSD - 2.Infoleiste Sendungsinformationen ändern in -2.Infoleiste INFO. Von System Plugins laden wir uns den WeatherComponentHandler runter. WeatherComponentHandler/Menu, dann Grün Hinzufügen. Wenn ihr den Ort Eingegeben habt, ein mal runter auf Location-Code. Gelb für Code suchen, mit Grün (OK)bestätigen, wichtig wieder OK. Noch wichtiger mit Rot zurück, sonst müsst ihr wieder von vorne anfangen. Jetzt mit Exit beenden, Benutzer Oberfläche neustarten, eventuell kompletter Neustart." position="40,624" size="1190,350" zPosition="2" font="Regular; 32" transparent="1" backgroundColor="black" halign="left" foregroundColor="foregroundClock" valign="center" />
 </screen>
+<screen name="VFD SkinSelector" position="0,0" size="1920,1080" title="VFD Skin Selector" flags="wfNoBorder" backgroundColor="transparent">
+  <ePixmap pixmap="Blue-Line-OE-4ATV/menu/bg1280.png" position="0,0" zPosition="-20" size="1280,1080" />
+  <widget source="global.CurrentTime" render="Label" position="508,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="white" backgroundColor="black" transparent="1">
+    <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+  </widget>
+<widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+  <eLabel text="Select skin:" position="91,255" size="250,40" zPosition="1" foregroundColor="cyan1" font="Regular; 32" halign="left" />
+  <eLabel text="Preview:" position="525,255" size="250,40" zPosition="1" foregroundColor="cyan1" font="Regular; 32" halign="left" />
+  <widget name="SkinList" render="Listbox" position="91,320" size="370,410" font="Regular;32" itemHeight="40" zPosition="1" enableWrapAround="1" scrollbarMode="showOnDemand" />
+  <widget name="Preview" position="525,320" size="370,410" zPosition="1" backgroundColor="background" transparent="0" alphatest="on" />
+  <eLabel text="Select your skin and press OK to activate the selected skin" position="168,788" halign="left" size="750,80" zPosition="1" foregroundColor="cyan1" font="Regular; 32" />
+  <ePixmap position="88,785" size="60,50" zPosition="10" pixmap="Blue-Line-OE-4ATV/buttons/key_ok.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_red.png" position="13,1018" size="35,35" alphatest="blend" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_green.png" position="270,1018" size="35,35" alphatest="blend" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_blue.png" position="582,1018" size="35,35" alphatest="blend" />
+  <widget name="key_red" position="58,1000" size="200,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+  <widget name="key_green" position="315,1000" size="260,70" zPosition="1" valign="center" font="Regular; 30" halign="left" backgroundColor="black" transparent="1" />
+  <widget name="key_blue" position="630,1000" size="295,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_menu.png" position="1101,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_exit.png" position="1020,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+  <ePixmap position="981,699" size="256,256" zPosition="2" pixmap="Blue-Line-OE-4ATV/icons/menu_mainmenu_pluginmanager.png" transparent="1" />
+  <eLabel name="vertikalline" position="929,120" size="2,840" foregroundColor="backgroundBlue" backgroundColor="backgroundBlue" />
+</screen>
+
+<screen name="LCDSkinSelector" position="0,0" size="1920,1080" title="Lcd Skin Selector" flags="wfNoBorder" backgroundColor="transparent">
+    <widget source="global.CurrentTime" render="Label" position="508,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="white" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+    </widget>
+    <ePixmap pixmap="Blue-Line-OE-4ATV/menu/bg1280.png" position="0,0" zPosition="-20" size="1280,1080" />
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+    <ePixmap position="981,699" size="256,256" zPosition="2" pixmap="Blue-Line-OE-4ATV/icons/swm.png" transparent="1" />
+    <eLabel name="vertikalline" position="929,120" size="2,840" foregroundColor="backgroundBlue" backgroundColor="backgroundBlue" />
+    <widget name="SkinList" position="32,130" size="875,520" font="Regular;30" itemHeight="40" zPosition="1" scrollbarMode="showOnDemand" backgroundColor="background" transparent="1" />
+    <widget name="Preview" position="229,675" size="346,275" zPosition="2" backgroundColor="background" transparent="1" alphatest="on" />
+    <widget name="lab3" position="950,130" size="300,510" font="Regular;30" foregroundColor="white" transparent="1" halign="center" backgroundColor="background" />
+    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+    <widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+  </screen>
  </skin>

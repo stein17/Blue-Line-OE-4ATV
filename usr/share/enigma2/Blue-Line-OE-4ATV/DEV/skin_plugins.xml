@@ -6555,7 +6555,7 @@ self.instance.move(ePoint(0,0))
     <widget name="spinner_3" zPosition="1" position="721,300" size="16,16" transparent="1" alphatest="blend" />
     <widget name="spinner_4" zPosition="1" position="737,300" size="16,16" transparent="1" alphatest="blend" />
   </screen>
-  <!-- kinoMain -->
+   <!-- kinoMain -->
   <screen name="kinoMain" position="0,0" size="1920,1080" title="KINO.de" backgroundColor="transparent" flags="wfNoBorder">
     <widget source="global.CurrentTime" render="Label" position="548,27" size="600,40" font="Regular; 30" halign="right" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="3">
       <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
@@ -6571,15 +6571,15 @@ self.instance.move(ePoint(0,0))
     <widget name="label3" position="370,1000" size="240,70" zPosition="2" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
     <widget name="label2" position="675,1000" size="240,70" zPosition="2" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
     <widget name="label4" position="983,1000" size="240,70" zPosition="2" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-    <widget name="menu" position="178,250" size="1000,560" scrollbarMode="showAlways" zPosition="1" />
-    <widget name="pic1" position="100,250" size="50,70" alphatest="blend" zPosition="2" />
-    <widget name="pic2" position="100,320" size="50,70" alphatest="blend" zPosition="2" />
-    <widget name="pic3" position="100,390" size="50,70" alphatest="blend" zPosition="2" />
-    <widget name="pic4" position="100,460" size="50,70" alphatest="blend" zPosition="2" />
-    <widget name="pic5" position="100,530" size="50,70" alphatest="blend" zPosition="2" />
-    <widget name="pic6" position="100,600" size="50,70" alphatest="blend" zPosition="2" />
-    <widget name="pic7" position="100,670" size="50,70" alphatest="blend" zPosition="2" />
-    <widget name="pic8" position="100,740" size="50,70" alphatest="blend" zPosition="2" />
+    <widget name="menu" position="90,250" size="1180,560" font="Regular; 32" foregroundColor="white" foregroundColorSelected="cyan1" backgroundColor="black" backgroundColorSelected="backgroundBlue" scrollbarMode="showAlways" zPosition="1" />
+    <widget name="pic1" position="20,250" size="50,70" alphatest="blend" zPosition="2" />
+    <widget name="pic2" position="20,320" size="50,70" alphatest="blend" zPosition="2" />
+    <widget name="pic3" position="20,390" size="50,70" alphatest="blend" zPosition="2" />
+    <widget name="pic4" position="20,460" size="50,70" alphatest="blend" zPosition="2" />
+    <widget name="pic5" position="20,530" size="50,70" alphatest="blend" zPosition="2" />
+    <widget name="pic6" position="20,600" size="50,70" alphatest="blend" zPosition="2" />
+    <widget name="pic7" position="20,670" size="50,70" alphatest="blend" zPosition="2" />
+    <widget name="pic8" position="20,740" size="50,70" alphatest="blend" zPosition="2" />
   </screen>
   <!-- movieInfo -->
   <screen name="movieInfo" position="0,0" size="1920,1080" title="KINO.de" backgroundColor="transparent" flags="wfNoBorder">
@@ -6595,7 +6595,7 @@ self.instance.move(ePoint(0,0))
     <widget name="label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
     <widget name="label3" position="370,1000" size="240,70" zPosition="2" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
     <widget name="label2" position="675,1000" size="240,70" zPosition="2" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-    <widget name="textpage" position="319,236" size="900,700" font="Regular;30" zPosition="1" />
+    <widget name="textpage" position="319,236" size="950,700" foregroundColor="white" backgroundColor="black" font="Regular;32" zPosition="1" />
     <widget name="pic" position="51,236" size="250,350" alphatest="blend" zPosition="2" />
     <widget name="ratingbig" position="139,598" size="70,70" alphatest="blend" zPosition="2" font="Regular; 24" />
     <widget name="rating" position="92,678" size="160,32" alphatest="blend" zPosition="2" font="Regular; 27" />
@@ -6609,7 +6609,7 @@ self.instance.move(ePoint(0,0))
     </widget>
     <ePixmap pixmap="Blue-Line-OE-4ATV/menu/bg1280.png" position="0,0" zPosition="-20" size="1280,1080" />
     <widget source="Title" render="Label" position="51,150" foregroundColor="bluetitle" size="1180,50" noWrap="1" valign="center" font="Regular; 36" backgroundColor="black" halign="left" transparent="1" zPosition="2" />
-    <widget name="list" position="53,241" font="Regular; 30" itemHeight="45" size="1180,695" scrollbarMode="showOnDemand" zPosition="1" />
+    <widget name="list" position="53,241" font="Regular; 32" itemHeight="45" size="1180,695" scrollbarMode="showOnDemand" foregroundColor="white" foregroundColorSelected="cyan1" backgroundColor="black" backgroundColorSelected="backgroundBlue" zPosition="1" />
   </screen>
   <!-- kinosInfo -->
   <screen name="kinosInfo" position="0,0" size="1920,1080" title="" backgroundColor="transparent" flags="wfNoBorder">
@@ -6619,18 +6619,18 @@ self.instance.move(ePoint(0,0))
     </widget>
     <ePixmap pixmap="Blue-Line-OE-4ATV/menu/bg1280.png" position="0,0" zPosition="-20" size="1280,1080" />
     <widget source="Title" render="Label" position="51,150" foregroundColor="bluetitle" size="1180,50" noWrap="1" valign="center" font="Regular; 36" backgroundColor="black" halign="left" transparent="1" zPosition="2" />
-    <widget name="label" position="53,241" size="1180,625" font="Regular;32" scrollbarMode="showOnDemand" zPosition="1" />
-    <widget name="list" position="53,241" size="1180,625" scrollbarMode="showOnDemand" zPosition="1" />
+    <widget name="label" position="53,241" size="1180,625" font="Regular;32" foregroundColor="white" foregroundColorSelected="cyan1" backgroundColor="black" backgroundColorSelected="backgroundBlue" scrollbarMode="showOnDemand" zPosition="1" />
+    <widget name="list" position="53,241" size="1180,625" font="Regular; 32" foregroundColor="white" foregroundColorSelected="cyan1" backgroundColor="black" backgroundColorSelected="backgroundBlue" scrollbarMode="showOnDemand" zPosition="1" />
   </screen>
   <!-- kinoInfo -->
   <screen name="kinoInfo" position="0,0" size="1920,1080" title="" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="12,15" size="800,60" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/KINOde/pic/kinoHD.png" alphatest="blend" zPosition="1" />
-    <widget source="global.CurrentTime" render="Label" position="530,28" size="600,40" font="Regular; 30" halign="right" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="3">
+    <widget source="global.CurrentTime" render="Label" position="530,28" size="600,40" font="Regular; 30" halign="right" foregroundColor="white" foregroundColorSelected="cyan1" backgroundColor="black" backgroundColorSelected="backgroundBlue" transparent="1" zPosition="3">
       <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
     </widget>
     <ePixmap pixmap="Blue-Line-OE-4ATV/menu/bg1280.png" position="0,0" zPosition="-20" size="1280,1080" />
     <widget source="Title" render="Label" position="51,150" foregroundColor="bluetitle" size="1180,50" noWrap="1" valign="center" font="Regular; 36" backgroundColor="black" halign="left" transparent="1" zPosition="2" />
-    <widget name="label" position="53,241" size="1180,625" font="Regular;32" scrollbarMode="showOnDemand" zPosition="1" />
+    <widget name="label" position="53,241" size="1180,625" foregroundColor="white" foregroundColorSelected="cyan1" backgroundColor="black" backgroundColorSelected="backgroundBlue" font="Regular;32" scrollbarMode="showOnDemand" zPosition="1" />
   </screen>
   <!-- fotoShow -->
   <screen name="fotoShow" position="0,0" size="1920,1080" title="" backgroundColor="transparent" flags="wfNoBorder">
@@ -6656,7 +6656,7 @@ self.instance.move(ePoint(0,0))
     <eLabel name="vertikalline" position="929,120" size="2,840" foregroundColor="backgroundBlue" backgroundColor="backgroundBlue" />
     <widget source="Title" render="Label" position="10,25" size="900,50" noWrap="1" valign="center" font="Regular; 36" backgroundColor="black" halign="left" transparent="1" zPosition="1" />
     <ePixmap position="239,308" size="425,425" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/KINOde/pic/info.png" zPosition="1" />
-    <widget name="label" position="241,380" size="425,350" font="Regular;27" foregroundColor="bluetitle" backgroundColor="white" halign="center" valign="center" transparent="1" zPosition="2" />
+    <widget name="label" position="241,380" size="425,350" font="Regular;27" foregroundColor="white" foregroundColorSelected="cyan1" backgroundColor="black" backgroundColorSelected="backgroundBlue" halign="center" valign="center" transparent="1" zPosition="2" />
   </screen>
   <!-- DownloadUpdate -->
   <screen name="DownloadUpdate" position="0,0" size="1920,1080" title="Download Update..." backgroundColor="transparent" flags="wfNoBorder">
@@ -6693,7 +6693,7 @@ self.instance.move(ePoint(0,0))
     <ePixmap position="981,699" size="256,256" zPosition="2" pixmap="Blue-Line-OE-4ATV/icons/service_info.png" transparent="1" />
     <widget source="Title" render="Label" position="10,25" size="900,50" noWrap="1" valign="center" font="Regular; 36" backgroundColor="black" halign="left" transparent="1" zPosition="1" />
     <ePixmap position="282,142" size="400,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/KINOde/pic/logoConfig.png" alphatest="blend" zPosition="1" />
-    <widget name="config" position="50,250" size="835,670" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="background" transparent="1" zPosition="2" />
+    <widget name="config" position="50,250" size="835,670" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" foregroundColor="white" foregroundColorSelected="cyan1" backgroundColor="black" backgroundColorSelected="backgroundBlue" transparent="1" zPosition="2" />
     <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
     <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
     <eLabel position="67,1020" size="240,30" font="Regular;27" halign="left" text="Speichern" transparent="1" zPosition="1" />
