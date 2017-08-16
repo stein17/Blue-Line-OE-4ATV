@@ -129,12 +129,14 @@
     <color name="blue" value="#000066cc" />
     <color name="blue2" value="#000051c0" />
     <color name="blue3" value="#000069fb" />
+    <color name="lightbluelabel" value="#000040c0" />
+    <color name="darkbluelabel" value="#00002672" />
     <color name="bluelabel" value="#00003399" />
     <color name="bluetitle" value="#0050bbff" />
     <color name="cyan" value="#0000ffff" />
     <color name="cyan1" value="#0000deff" />
     <color name="dark" value="#00303340" />
-    <color name="darkbluelabel" value="#00002672" />
+	<color name="darkgrey2" value="#00808080" />
     <color name="darkgrey" value="#00999999" />
     <color name="darkred" value="#00a00000" />
     <color name="extrdarkred" value="#21000000" />
@@ -142,10 +144,9 @@
     <color name="green" value="#0000cc00" />
     <color name="greenlight" value="#00a4c400" />
     <color name="grey" value="#00cccccc" />
-    <color name="grey1" value="#00a6a6a6" />
+	<color name="grey1" value="#00a6a6a6" />
     <color name="greytransparent" value="#60cecece" />
     <color name="lightblue" value="#0066ccff" />
-    <color name="lightbluelabel" value="#000040c0" />
     <color name="orange" value="#00ff6600" />
     <color name="red" value="#00ff0000" />
     <color name="redtransparent" value="#084c0000" />
@@ -283,6 +284,25 @@
     <eLabel backgroundColor="cyan" position="411,294" size="2,21" />
     <eLabel backgroundColor="cyan" position="411,53" size="2,21" />
   </screen>
+        <!-- NumberZapExt With Picon FHD -->
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="NumberZapPicon" position="396,324" size="1071,365" title="QuickZap">
+  <widget alphatest="blend" position="564,71" render="OPDXPicon" size="324,182" source="Service" transparent="1" zPosition="1">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+  <widget name="number" position="101,108" size="300,150" halign="center" valign="center" font="Regular;120" backgroundColor="background" foregroundColor="cyan1" borderColor="backgroundBlue" borderWidth="7"/>
+  <widget name="servicename" position="434,269" size="601,42" halign="center" valign="center" font="Regular;40" backgroundColor="background" foregroundColor="cyan1" borderColor="backgroundBlue" borderWidth="3"/>
+  <eLabel halign="center" position="407,48" size="641,272" zPosition="-1" />
+  <eLabel halign="center" position="69,69" size="338,231" zPosition="-1" />
+  <eLabel backgroundColor="backgroundBlue" position="74,74" size="2,221" />
+  <eLabel backgroundColor="backgroundBlue" position="74,74" size="353,2" />
+  <eLabel backgroundColor="backgroundBlue" position="426,74" size="2,221" />
+  <eLabel backgroundColor="backgroundBlue" position="74,293" size="353,2" />
+  <eLabel backgroundColor="backgroundBlue" position="411,314" size="630,2" />
+  <eLabel backgroundColor="backgroundBlue" position="411,294" size="2,21" />
+  <eLabel backgroundColor="backgroundBlue" position="411,53" size="2,21" />
+  <eLabel backgroundColor="backgroundBlue" position="1041,53" size="2,263" />
+  <eLabel backgroundColor="backgroundBlue" position="411,53" size="630,2" />
+</screen>
   <!-- TextBox FHD -->
   <screen name="TextBox" position="center,center" size="900,400" title="Message...">
     <widget name="text" position="10,5" size="880,380" font="Regular;32" foregroundColor="white" transparent="1" />
