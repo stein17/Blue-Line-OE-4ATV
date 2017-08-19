@@ -286,7 +286,7 @@
   </screen>
         <!-- NumberZapExt With Picon FHD -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="NumberZapPicon" position="396,324" size="1071,365" title="QuickZap">
-  <widget alphatest="blend" position="564,71" render="OPDXPicon" size="324,182" source="Service" transparent="1" zPosition="1">
+  <widget alphatest="blend" position="564,71" render="BLXPicon" size="324,182" source="Service" transparent="1" zPosition="1">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
   <widget name="number" position="101,108" size="300,150" halign="center" valign="center" font="Regular;120" backgroundColor="background" foregroundColor="cyan1" borderColor="backgroundBlue" borderWidth="7"/>
