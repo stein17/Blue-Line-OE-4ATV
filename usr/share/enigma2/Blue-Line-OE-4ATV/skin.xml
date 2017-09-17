@@ -3143,26 +3143,26 @@
     </widget>
   </screen>
   <!-- History Zap -->
-  <screen name="HistoryZapSelector" position="0,0" size="1920,1080" backgroundColor="transparent">
-    <eLabel text="History Zap..." position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
-    <ePixmap pixmap="Blue-Line-OE-4ATV/menu/bg1280.png" position="0,0" zPosition="-20" size="1280,1080" />
-    <widget source="global.CurrentTime" render="Label" position="508,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="white" backgroundColor="black" transparent="1">
-      <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
-    </widget>
-    <widget source="menu" render="Listbox" position="30,130" size="1160,820" scrollbarMode="showOnDemand" backgroundColor="background" transparent="0" zPosition="0">
-      <convert type="TemplatedMultiContent">{"template": [
-						MultiContentEntryText(pos = (120, 5), size = (300, 30), font = 1, flags = RT_HALIGN_LEFT | RT_VALIGN_TOP, text = 2, color = 0x00ffffff, color_sel = 0x00ffffff),
-                                                MultiContentEntryText(pos = (120, 38), size = (300, 28), font = 3, flags = RT_HALIGN_LEFT, text = 5, color = 0x00bbbbbb, color_sel = 0x00ffffff),
-                                                MultiContentEntryText(pos = (105, 17), size = (10, 20), font = 2, flags = RT_HALIGN_CENTER | RT_VALIGN_CENTER, text = 1),
-						MultiContentEntryText(pos = (430, 1), size = (730, 30), font = 2, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 3, color = 0x00ffffff, color_sel = 0x00ffffff),
-						MultiContentEntryText(pos = (430, 29), size = (730, 46), font = 3, flags = RT_HALIGN_LEFT, text = 4, color = 0x00bbbbbb, color_sel = 0x00ffffff),
-						MultiContentEntryPixmapAlphaBlend(pos=(2, 7), size=(100, 60), png=6, flags = BT_SCALE)
+ <screen name="HistoryZapSelector" position="0,0" size="1920,1080" backgroundColor="transparent">
+  <eLabel text="History Zap..." position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+  <ePixmap pixmap="Blue-Line-OE-4ATV/menu/bg1920.png" position="0,0" zPosition="-20" size="1920,1080" />
+  <widget source="global.CurrentTime" render="Label" position="508,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="white" backgroundColor="black" transparent="1">
+    <convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+  </widget>
+  <widget source="menu" render="Listbox" position="30,130" size="1860,840" scrollbarMode="showOnDemand" foregroundColor="bluetitle" foregroundColorSelected="white" backgroundColor="background" backgroundColorSelected="bluelabel" transparent="0" zPosition="0">
+    <convert type="TemplatedMultiContent">{"template": [
+						MultiContentEntryText(pos = (150, 5), size = (650, 50), font = 1, flags = RT_HALIGN_LEFT | RT_VALIGN_TOP, text = 2, ),
+                        MultiContentEntryText(pos = (150, 65), size = (650, 46), font = 3, flags = RT_HALIGN_LEFT, text = 5, ),
+                        MultiContentEntryText(pos = (120, 12), size = (20, 30), font = 2, flags = RT_HALIGN_CENTER | RT_VALIGN_CENTER, text = 1),
+						MultiContentEntryText(pos = (700, 5), size = (1140, 50), font = 2, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 3, ),
+						MultiContentEntryText(pos = (700, 65), size = (1140, 46), font = 3, flags = RT_HALIGN_LEFT, text = 4, ),
+						MultiContentEntryPixmapAlphaBlend(pos=(2, 30), size=(100, 60), png=6, flags = BT_SCALE)
 					],
-				 "fonts": [gFont("Regular", 30), gFont("Regular", 26), gFont("Regular", 23), gFont("Regular", 20)],
-				 "itemHeight": 75
+				 "fonts": [gFont("Regular", 42), gFont("Regular", 42), gFont("Regular", 36), gFont("Regular", 36)],
+				 "itemHeight":120
 				}</convert>
-    </widget>
-  </screen>
+  </widget>
+</screen>
   <!-- Info Translation FHD -->
   <screen name="TranslationInfo" position="0,0" size="1920,1080" title="Translation" flags="wfNoBorder" backgroundColor="transparent">
     <widget source="global.CurrentTime" render="Label" position="595,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="white" backgroundColor="black" transparent="1">
@@ -3388,7 +3388,7 @@
     <widget source="global.CurrentTime" render="BLWatches" position="1675,878" size="130,130" zPosition="2" foregroundColor="bluelabel" alphatest="blend">
       <convert type="BLAnalogClock">hourHand</convert>
     </widget>
-    <widget name="Cover" position="12,656" size="345,400" zPosition="1" alphatest="on" backgroundColor="transparent" foregroundColor="transparent" />
+   <widget source="session.CurrentService" render="Cover" position="12,656" size="345,400" zPosition="4" transparent="1" alphatest="blend" />
     <widget source="session.CurrentService" render="Label" position="405,960" size="100,40" font="Regular; 32" halign="right" foregroundColor="white" backgroundColor="background" transparent="1" valign="center" zPosition="3">
       <convert type="ServiceInfo">VideoWidth</convert>
     </widget>

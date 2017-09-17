@@ -22,7 +22,7 @@
     <widget source="global.CurrentTime" render="BLWatches" position="1675,878" size="130,130" zPosition="2" foregroundColor="darkgrey" alphatest="blend">
       <convert type="BLAnalogClock">hourHand</convert>
     </widget>
-    <widget name="Cover" position="12,656" size="345,400" zPosition="1" alphatest="on" backgroundColor="transparent" foregroundColor="transparent" />
+       <widget source="session.CurrentService" render="Cover" position="12,656" size="345,400" zPosition="4" transparent="1" alphatest="blend" />
     <widget source="session.CurrentService" render="Label" position="405,960" size="100,40" font="Regular; 32" halign="right" foregroundColor="foregroundClock" backgroundColor="background" transparent="1" valign="center" zPosition="3">
       <convert type="ServiceInfo">VideoWidth</convert>
     </widget>
