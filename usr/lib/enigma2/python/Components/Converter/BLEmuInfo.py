@@ -1,13 +1,9 @@
-# Embedded file name: /usr/lib/enigma2/python/Components/Converter/MydExtraInfo.py
 from Components.Converter.Converter import Converter
 from enigma import iServiceInformation, iPlayableService, eTimer, eServiceReference, eEPGCache
 from Components.Element import cached
 from Tools.Directories import fileExists
 from os import path, popen
 import re
-
-
-
 
 class BLEmuInfo(Converter, object):
     TEMPERATURE = 1
@@ -139,8 +135,7 @@ class BLEmuInfo(Converter, object):
                             caID = caID.strip(',;.:-*_<>()[]{}')
                             sysID = self.getCryptName(caID)
                             return sysID
-
-            file.close()
+			file.close()
         else:
             return ''
 
@@ -220,7 +215,7 @@ class BLEmuInfo(Converter, object):
                 else:
                     ecmtime2 = str(int(float(ecmtime) * 1000)) + ' ms'
             if source != '':
-                emun = 'EMU : MgCamd'
+                emun = 'EMU : Wicardd'
                 ecmtime = ecmtime.rstrip('ce')
                 if int(ecmtime.split()[0]) >= 1000:
                     ecmtime2 = str(float(ecmtime.split()[0]) / 1000) + ' s'
