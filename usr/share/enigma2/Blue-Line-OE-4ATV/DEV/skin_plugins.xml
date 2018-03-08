@@ -4520,34 +4520,34 @@ self.instance.move(ePoint(0,0))
   <widget name="yellow" position="1680,1016" size="0,0" alphatest="blend" transparent="1" zPosition="3" />
   <widget name="red" position="1268,1016" size="0,0" alphatest="blend" transparent="1" zPosition="2" />
   <widget name="green" position="1476,1016" size="0,0" alphatest="blend" transparent="1" zPosition="2" />
-  <widget name="label" position="1280,240" size="580,45" font="Regular;35" foregroundColor="white" valign="center" transparent="1" zPosition="3" />
-  <widget name="label2" position="1280,285" size="580,35" font="Regular; 24" valign="center" transparent="1" zPosition="3" backgroundColor="background" />
-  <widget name="label3" position="1280,900" size="580,35" font="Regular; 23" foregroundColor="grey" valign="center" transparent="1" zPosition="3" backgroundColor="background" />
-  <widget name="list" position="1281,345" size="580,520" itemHeight="80" foregroundColor="white" backgroundColor="black" selectionPixmap="Blue-Line-OE-4ATV/menu/selp.png" transparent="1" zPosition="3" />
-  <widget name="plotname" position="1280,240" size="580,90" font="Regular; 30" valign="center" transparent="1" zPosition="20" backgroundColor="background" foregroundColor="white" Wrap="1" />
-  <widget name="plotfull" position="1280,342" size="580,545" font="Regular; 26" foregroundColor="white" transparent="1" zPosition="20" backgroundColor="background" />
-  <widget name="poster" position="999,680" size="150,225" zPosition="21" transparent="1" alphatest="blend" />
-  <widget name="posterback" position="950,670" size="245,245" zPosition="20" transparent="1" alphatest="blend" />
+  <widget name="label" position="1280,240" size="620,45" font="Regular;35" foregroundColor="white" valign="center" transparent="1" zPosition="3" />
+  <widget name="label2" position="1280,285" size="620,35" font="Regular; 27" valign="center" transparent="1" zPosition="3" backgroundColor="background" />
+  <widget name="label3" position="1280,900" size="580,35" font="Regular; 27" foregroundColor="grey" valign="center" transparent="1" zPosition="3" backgroundColor="background" />
+  <widget name="list" position="1281,345" size="620,540" itemHeight="80" foregroundColor="white" backgroundColor="black" selectionPixmap="Blue-Line-OE-4ATV/menu/selp.png" transparent="1" zPosition="3" />
+  <widget name="plotname" position="1280,240" size="620,90" font="Regular; 32" valign="center" transparent="1" zPosition="20" backgroundColor="background" foregroundColor="white" Wrap="1" />
+  <widget name="plotfull" position="1282,344" backgroundColorSelected="bluelabel" foregroundColor="white" backgroundColor="black" foregroundColorSelected="cyan1" size="620,545" itemHeight="45" font="Regular; 30" transparent="1" zPosition="20" />
+  <widget name="poster" position="976,633" size="150,225" zPosition="21" transparent="1" alphatest="blend" />
+  <widget name="posterback" position="928,622" size="245,245" zPosition="20" transparent="1" alphatest="blend" />
   <widget name="name" position="30,608" size="560,40" font="Regular; 30" foregroundColor="black" valign="center" transparent="0" zPosition="3" Wrap="1" backgroundColor="white" />
-  <widget name="seen" position="6,607" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/pic/browser/seen.png" transparent="1" alphatest="blend" zPosition="3" />
+  <widget name="seen" position="32,560" size="30,30" pixmap="Blue-Line-OE-4ATV/icons/selectioncross.png" transparent="1" alphatest="blend" zPosition="3" />
   <widget name="ratings" position="971,934" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/pic/browser/ratings.png" borderWidth="0" orientation="orHorizontal" transparent="1" zPosition="5" />
   <widget name="ratingsback" position="971,934" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MovieBrowser/pic/browser/ratings_back.png" alphatest="blend" zPosition="6" />
-  <widget name="Director" position="30,665" size="160,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="8" backgroundColor="white" />
-  <widget name="director" position="175,665" size="400,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="9" backgroundColor="white" />
-  <widget name="Year" position="30,710" size="150,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="14" backgroundColor="white" />
-  <widget name="year" position="175,710" size="150,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="15" backgroundColor="white" />
-  <widget name="Country" position="30,755" size="160,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="10" backgroundColor="white" />
-  <widget name="country" position="175,755" size="360,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="11" backgroundColor="white" />
-  <widget name="Runtime" position="30,800" size="160,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="16" backgroundColor="white" />
-  <widget name="runtime" position="175,800" size="250,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="17" backgroundColor="white" />
-  <widget name="Genres" position="30,850" size="160,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="18" backgroundColor="white" />
-  <widget name="genres" position="206,850" size="540,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="19" Wrap="1" backgroundColor="white" />
-  <widget name="Actors" position="30,900" size="160,30" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="12" backgroundColor="white" />
-  <widget name="actors" position="206,900" size="700,65" font="Regular; 25" foregroundColor="black" transparent="0" zPosition="13" backgroundColor="white" />
+  <widget name="Director" position="30,665" size="160,30" font="Regular; 27" foregroundColor="black" transparent="0" zPosition="8" backgroundColor="white" />
+  <widget name="director" position="175,665" size="400,30" font="Regular; 27" foregroundColor="black" transparent="0" zPosition="9" backgroundColor="white" />
+  <widget name="Year" position="30,710" size="150,30" font="Regular; 27" foregroundColor="black" transparent="0" zPosition="14" backgroundColor="white" />
+  <widget name="year" position="175,710" size="150,30" font="Regular; 27" foregroundColor="black" transparent="0" zPosition="15" backgroundColor="white" />
+  <widget name="Country" position="30,755" size="160,30" font="Regular; 27" foregroundColor="black" transparent="0" zPosition="10" backgroundColor="white" />
+  <widget name="country" position="175,755" size="360,30" font="Regular; 27" foregroundColor="black" transparent="0" zPosition="11" backgroundColor="white" />
+  <widget name="Runtime" position="30,800" size="160,30" font="Regular; 27" foregroundColor="black" transparent="0" zPosition="16" backgroundColor="white" />
+  <widget name="runtime" position="175,800" size="250,30" font="Regular; 27" foregroundColor="black" transparent="0" zPosition="17" backgroundColor="white" />
+  <widget name="Genres" position="30,850" size="160,30" font="Regular; 27" foregroundColor="black" transparent="0" zPosition="18" backgroundColor="white" />
+  <widget name="genres" position="206,850" size="540,30" font="Regular; 27" foregroundColor="black" transparent="0" zPosition="19" Wrap="1" backgroundColor="white" />
+  <widget name="Actors" position="30,900" size="160,30" font="Regular; 27" foregroundColor="black" transparent="0" zPosition="12" backgroundColor="white" />
+  <widget name="actors" position="206,900" size="700,65" font="Regular; 27" foregroundColor="black" transparent="0" zPosition="13" backgroundColor="white" />
   <widget name="eposter" position="27,606" size="840,380" alphatest="blend" transparent="1" zPosition="21" />
   <widget name="banner" position="968,931" size="217,27" alphatest="blend" transparent="0" foregroundColor="backgroundBlue" backgroundColor="backgroundBlue" zPosition="21" />
-  <widget name="episodes" position="27,606" size="840,380" scrollbarMode="showOnDemand" transparent="1" zPosition="21" font="Regular; 22" backgroundColor="background" />
-  <widget name="seasons" position="27,606" size="840,380" scrollbarMode="showOnDemand" transparent="1" zPosition="20" font="Regular; 22" backgroundColor="background" />
+  <widget name="episodes" position="27,606" size="840,380" scrollbarMode="showOnDemand" transparent="1" zPosition="21" font="Regular; 27" backgroundColor="background" />
+  <widget name="seasons" position="27,606" size="840,380" scrollbarMode="showOnDemand" transparent="1" zPosition="20" font="Regular; 27" backgroundColor="background" />
   <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_pvr.png" position="1441,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
   <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_menu.png" position="1295,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
   <ePixmap pixmap="Blue-Line-OE-4ATV/buttons/key_text.png" position="1678,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
